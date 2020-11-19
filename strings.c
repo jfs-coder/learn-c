@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main() {
-	char * name = "Meline Richer";
-	char sname[] = "Melodie Richer-Simard";
+	char * name = "Jim Bob";
+	char sname[] = "Mary Sue";
 	int age = 27;
 
 	/* prints out 'John Smith is 27 years old.' */
@@ -13,10 +13,10 @@ int main() {
 	printf("String length: %d\n", strlen(name));
 
 	/* strncmp() compares between two strings returning 0 if equal */
-	if(strncmp(name, "Meline Richer", 13) == 0) {
-		printf("Hello, Meline!\n");
+	if(strncmp(name, "Jim Bob", 7) == 0) {
+		printf("Hello, Jim!\n");
 	}
-	else { printf("You are not Meline, go away.\n"); }
+	else { printf("You are not Jim Bob, go away.\n"); }
 
 	/* strncat appends first n characters of src string to the dest string
 	   where 'n' is min(n,length(src));  The arguments passed are dest str
