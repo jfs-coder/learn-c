@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	char *name = "John Simard";
+	char *name = "John Smith";
 	int i = 0;
 
 	while(name[i] != '\0') {
