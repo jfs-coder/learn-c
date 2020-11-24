@@ -7,7 +7,11 @@ int main() {
 	}
 
 	void addOneRef(int *z) {
-		(*z)++;
+		printf("inside addOneRef *z: %d\n", *z);
+		printf("inside addOneRef z: %d\n", z);
+		printf("adding 1 to *z aka n.\n");
+		*z += 1;
+		printf("inside addOneRef *z: %d\n", *z);
 	}
 
 	int n = 0;
