@@ -42,8 +42,8 @@ int main() {
 	car1->next = car2; car2->next = car3; car3->next = car4;
 
 	printf("\n\n");
-	printList(car1, 1); // 1 == forward direction
-	// printList(car4, 0); // 0 == backward direction
+	//printList(car1, 1); // 1 == forward direction
+	printList(car4, 0); // 0 == backward direction
 	printf("\n\n");
 
 	free(car1); free(car2); free(car3); free(car4); 
